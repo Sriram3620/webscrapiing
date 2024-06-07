@@ -1,0 +1,58 @@
+.article-bg
+{
+    background-color:white;
+    width: 60vw;
+    height: 35vh;
+    text-decoration: none;
+}
+.remove-des
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+.article-img
+{
+    height: 150px;
+    width: 250px;
+    margin-top: 30px;
+}
+.heading
+{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.author
+{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.author-sub
+{
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+.link
+{
+    font-size: 18px;
+}
+
+@media(min-width:567px ) and (max-width:778px)
+{
+   .article-bg{
+    width: 95vw;
+    height: 30vh;
+   }
+}
+
+@media (max-width:546px)
+{
+    .article-bg
+    {
+        height: 100%;
+        width: 80vw;
+        padding-right: 100px;
+    }
+}

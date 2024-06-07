@@ -1,0 +1,97 @@
+.viewer-bg
+{
+    /* background-image: linear-gradient(to right, #617087,#404B59,#313844,#292F39,#282E37); */
+    background-color:white;
+    width: 95vw;
+    height: 100vh;
+}
+
+.medium-head
+{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 30px;
+    color: rgb(22, 19, 69);
+}
+
+.loading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+}
+
+.Articles
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.err-msg
+{
+    font-size: 15px;
+    padding-top: 16px;
+    color: red;
+}
+.errimg-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.errimg
+{
+    height: 250px;
+    width: 300px;
+}
+.err-connection
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-box
+{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.search-btn
+{
+    height: 40px;
+    width: 100px;
+    background-color: navy;
+    color: white;
+    border-color: transparent;
+}
+
+@media(max-width:576px) {
+    .Articles
+    {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .search-box
+    {
+        width: 150px;
+        height: 35px;
+        outline:auto;
+    }
+    .search-btn
+    {
+        height: 35px;
+        width: 70px;
+    }
+    .errimg{
+        height: 150px;
+        width: 200px;
+    }
+    
+}
